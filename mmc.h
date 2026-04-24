@@ -254,6 +254,8 @@
 #define MMC_RSP_SPI_S1  (1 << 7)                /* one status byte */
 #define MMC_RSP_SPI_BUSY (1 << 10)              /* card may send busy */
 
+#define MMC_RSP_SPI_S2 (1 << 8)
+
 #define MMC_RSP_SPI_R1  (MMC_RSP_SPI_S1)
 #define MMC_RSP_SPI_R1B (MMC_RSP_SPI_S1|MMC_RSP_SPI_BUSY)
 
